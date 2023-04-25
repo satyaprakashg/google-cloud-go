@@ -1,5 +1,12 @@
 # Changes
 
+## [1.7.2](https://github.com/googleapis/google-cloud-go/compare/pubsublite/v1.7.1...pubsublite/v1.7.2) (2023-04-25)
+
+
+### Documentation
+
+* **pubsublite:** Associate examples with the correct function ([#7827](https://github.com/googleapis/google-cloud-go/issues/7827)) ([481b161](https://github.com/googleapis/google-cloud-go/commit/481b161d2fe5fbf2b6fb306b9153b2c174e75991))
+
 ## [1.7.1](https://github.com/googleapis/google-cloud-go/compare/pubsublite/v1.7.0...pubsublite/v1.7.1) (2023-04-21)
 
 
