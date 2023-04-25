@@ -1,5 +1,12 @@
 # Changes
 
+## [1.8.0](https://github.com/googleapis/google-cloud-go/compare/logging/v1.7.0...logging/v1.8.0) (2023-04-25)
+
+
+### Features
+
+* **logging:** Update iam and longrunning deps ([91a1f78](https://github.com/googleapis/google-cloud-go/commit/91a1f784a109da70f63b96414bba8a9b4254cddd))
+
 ## [1.7.0](https://github.com/googleapis/google-cloud-go/compare/logging/v1.6.1...logging/v1.7.0) (2023-02-27)
 
 
