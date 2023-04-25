@@ -6,15 +6,16 @@ set -eo pipefail
 # Always run the cleanup script, regardless of the success of bouncing into
 # the container.
 function cleanup() {
-    chmod +x ${KOKORO_GFILE_DIR}/trampoline_cleanup.sh
-    ${KOKORO_GFILE_DIR}/trampoline_cleanup.sh
-    echo "cleanup";
+  rm -rf "${KOKORO_GFILE_DIR}"
+  echo "cleanup";
 }
 trap cleanup EXIT
 
 $(dirname $0)/populate-secrets.sh # Secret Manager secrets.
 
 # Start the releasetool reporter
+requirementsFile=$(realpath $(dirname "$0"))/requirements.txt
+python3 -m pip install --require-hashes -r $requirementsFile
 python3 -m releasetool publish-reporter-script > /tmp/publisher-script; source /tmp/publisher-script
 
 cd github/google-cloud-go/
