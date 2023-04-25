@@ -1,5 +1,18 @@
 # Changes
 
+## [1.19.0](https://github.com/googleapis/google-cloud-go/compare/bigtable/v1.18.1...bigtable/v1.19.0) (2023-04-25)
+
+
+### Features
+
+* **bigtable:** Install grpc rls and xds by default ([#6005](https://github.com/googleapis/google-cloud-go/issues/6005)) ([5989bb1](https://github.com/googleapis/google-cloud-go/commit/5989bb18613c2b1fc1027819185733aca0f2d138))
+* **bigtable:** Update iam and longrunning deps ([91a1f78](https://github.com/googleapis/google-cloud-go/commit/91a1f784a109da70f63b96414bba8a9b4254cddd))
+
+
+### Bug Fixes
+
+* **bigtable/bttest:** Correct CellsSeenCount and CellsReturnedCount calculations ([#7141](https://github.com/googleapis/google-cloud-go/issues/7141)) ([61617a4](https://github.com/googleapis/google-cloud-go/commit/61617a45bf4bd14236ef4437a5684bb3995f02e1))
+
 ## [1.18.1](https://github.com/googleapis/google-cloud-go/compare/bigtable/v1.18.0...bigtable/v1.18.1) (2022-12-02)
 
 
