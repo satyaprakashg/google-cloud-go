@@ -1,5 +1,12 @@
 # Changes
 
+## [0.4.0](https://github.com/googleapis/google-cloud-go/compare/profiler/v0.3.1...profiler/v0.4.0) (2023-04-25)
+
+
+### Features
+
+* **profiler:** Update iam and longrunning deps ([91a1f78](https://github.com/googleapis/google-cloud-go/commit/91a1f784a109da70f63b96414bba8a9b4254cddd))
+
 ## [0.3.1](https://github.com/googleapis/google-cloud-go/compare/profiler/v0.3.0...profiler/v0.3.1) (2022-12-02)
 
 
